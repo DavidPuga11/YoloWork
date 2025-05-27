@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [8, 3]
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7]
+
+nc: 2
+names: ['bad-pose', 'good-pose']
+
+roboflow:
+  workspace: davidpuga
+  project: elecourse-camera-detection-ann6y
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/davidpuga/elecourse-camera-detection-ann6y/dataset/1
